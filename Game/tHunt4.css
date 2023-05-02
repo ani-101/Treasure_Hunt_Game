@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+
+body {
+    font-family: 'Anek Telugu', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #08b55c;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffff001c;
+}
+
+
+
+h2 {
+    margin-top: 0;
+    font-size: 28px;
+}
+
+p {
+    font-size: 24px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"] {
+
+    font-size: 4vh;
+    padding: 10px;
+    border-radius: 10px;
+    color: #05235b;
+}
+
+button[type="submit"] {
+
+    background-color: #5dd759;
+    border: none;
+    color: #fff;
+    font-size: 4vh;
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button[type="submit"]:hover {
+    background-color: #0059b3;
+}
+
+.feedback {
+    color: red;
+    display: none;
+    margin-top: 10px;
+}
+
+.feedback1 {
+    color: rgba(16, 231, 38, 0.799);
+    display: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #08b55c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Anek Telugu', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+
+footer p {
+    margin: 0;
+    font-size: 3vh;
+    color: white;
+
+}
+
+.puzzle {
+    display: inline-block;
+    width: 70%;
+    color: #136c68;
+
+    font-size: 7vh;
+}
+
+.clue {
+    display: inline-block;
+    width: 20%;
+    font-family: 'Anek Telugu', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 8vh;
+    color: #136c68;
+
+}
+
+
+
+.image1 {
+    padding: 2rem;
+
+}
+
+.image1 img {
+    height: 60vh;
+    width: 70vw;
+}

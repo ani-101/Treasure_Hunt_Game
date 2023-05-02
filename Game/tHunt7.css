@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: 28vh;
+    background-color: #8ff09a85;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-size: 3rem;
+
+    color: #ce099d;
+}
+
+p {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    color: #25750e;
+}
+
+.para1 {
+    display: flex;
+    justify-content: center;
+    color: #25750e;
+}
+
+.image {
+    padding: 2rem;
+}
+
+.image img {
+    width: 90vw;
+    height: 70vh;
+}
