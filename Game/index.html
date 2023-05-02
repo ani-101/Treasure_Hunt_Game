@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Treasure Hunt Game</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+
+        /* Define CSS styles for the user interface */
+        body {
+            font-family: 'Anek Telugu', sans-serif;
+            font-family: 'Source Sans Pro', sans-serif;
+            background-color: #f1f18b30;
+            ;
+        }
+
+        h1 {
+            text-align: center;
+
+            font-size: 7vh;
+        }
+
+        h2 {
+            font-size: 4.5vh;
+            color: #08b55c;
+        }
+
+        button {
+
+            padding: 1rem 1rem;
+            border-radius: 0.25rem;
+            cursor: pointer;
+            background-color: #5dd759;
+            border: none;
+            color: #fff;
+            font-size: 3vh;
+            font-weight: bold;
+        }
+
+
+        #startButton:hover {
+            background-color: #005f70;
+        }
+
+        .puzzle {
+            padding: 1rem;
+        }
+
+        .puzzle img {
+            width: 100%;
+            height: 80vh;
+        }
+
+        input[type=text],
+        input[type=number],
+        select {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 100%;
+            font-size: 18px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        #intro p {
+            color: #08b55c;
+            font-weight: 600;
+            font-size: 3vh;
+        }
+
+
+        header {
+            background-color: #8ff09a85;
+
+            color: #fff;
+            padding: 1rem;
+        }
+
+        #timer {
+            display: block;
+            margin: 10px auto;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        section {
+            padding: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Escape the Island</h1>
+
+    </header>
+    <section id="intro">
+        <h2>Welcome to Escape the Island!</h2>
+        <p>You are stranded on a deserted island and must find a way to escape. Your only hope is to follow the
+            clues that lead to a hidden treasure, which contains a ship that can help you leave the island.</p>
+        <p>In this game, you have to answer 5 quizzes which has a one word answer</p>
+        <p>If you entered the correct answer in the box then you'll entered into the next level</p>
+        <p>If your answer is wrong then you'll get two chances to re-attempt it</p>
+        <p>To start the game, scroll down and click on 'Start the Game' button.</p>
+
+
+    </section>
+    <div class="puzzle">
+        <img src="cover_img.jpg" alt="puzzle image">
+    </div>
+
+    <button id="startButton">Start the Game</button>
+    <!-- <div id="timer" style="display: none;">Time: <span id="time">00:00:00</span></div> -->
+    <script>
+        // Get the button element
+        const startButton = document.getElementById('startButton');
+
+        // Add an event listener to the button
+        startButton.addEventListener('click', function () {
+            window.location.href = "http://localhost/php_tu/Game/Data.php";
+        });
+    </script>
+</body>
+
+</html>
