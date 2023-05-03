@@ -43,6 +43,10 @@ form {
     margin-top: 20px;
 }
 
+input{
+    height: 4vh;
+}
+
 input[type="text"] {
 
     font-size: 4vh;
@@ -62,6 +66,7 @@ button[type="submit"] {
     cursor: pointer;
     border-radius: 10px;
     font-weight: bold;
+    height: 8vh;
 }
 
 button[type="submit"]:hover {
