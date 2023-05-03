@@ -45,6 +45,7 @@ form {
 
 input{
     height: 4vh;
+    width: 15vw;
 }
 
 input[type="text"] {
