@@ -22,6 +22,7 @@
             text-align: center;
 
             font-size: 7vh;
+            color: #dd930a;
         }
 
         h2 {
@@ -123,7 +124,11 @@
 
         // Add an event listener to the button
         startButton.addEventListener('click', function () {
-            window.location.href = "http://localhost/php_tu/Game/Data.php";
+            //For admin perspective, open the xampp and start the sql and Apache server, then use this below(commented line)
+            //window.location.href = "http://localhost/php_tu/Game/Data.php";
+            
+            
+            window.location.href = "./Game/ui.html";
         });
     </script>
 </body>
