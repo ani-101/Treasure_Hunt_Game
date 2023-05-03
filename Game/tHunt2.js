@@ -39,7 +39,7 @@ form.addEventListener('submit', function (event) {
         // If the answer is incorrect, show the feedback message
         if (num == 2) {
             alert("Oo Oo,Restart the game");
-            window.location.href = 'ui2.html';
+            window.location.href = 'index.html';
         }
         else {
             feedback.style.display = 'block';
