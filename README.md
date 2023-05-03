@@ -22,6 +22,9 @@ You'll get two chances to re-attempt it
 
 1. Created the user interface and all the pages using HTML, CSS, JavaScript
 2. All the user details is get stored in database - 'DataRecord' in table - 'record', which is created by using PHP
-3. The website gets deployed by using Netlify
+3. Used XAMPP tool
+4. The website gets deployed by using Netlify
 
+
+(For Admin perspective, open the Xampp and start the sql and Apache server, in 'index.html' file remove the comment of line no. 128 and comment out the line no. 131, as to use the line no. 128 one needs to start the Apache and SQL servers)
 (Answers for different levels are - map, coin, sword, skeleton, victoria)
