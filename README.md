@@ -10,6 +10,8 @@ If you entered the correct answer then you'll entered into the next level
 
 You'll get two chances to re-attempt it
 
+Link to plaay the game: http://escape-the-island.netlify.app
+
 ## Soft Skill to be assessed
 
 1. Problem Solving
